@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.3.9
+Built-By: shc_fighter
+Build-Jdk: 11.0.3
+Main-Class: org.springframework.boot.loader.JarLauncher
+Start-Class: com.ecit.DubboProviderApplication
+Spring-Boot-Version: 2.2.5.RELEASE
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+

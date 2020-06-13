@@ -1,0 +1,3 @@
+red=com.ecit.dubbo.spi.impl.RedCar
+blur=com.ecit.dubbo.spi.impl.BlurCar
+com.ecit.dubbo.spi.impl.CarWrapper

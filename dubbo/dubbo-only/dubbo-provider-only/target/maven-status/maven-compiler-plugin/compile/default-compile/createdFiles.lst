@@ -1,0 +1,5 @@
+com\ecit\impl\DefaultDemoService.class
+com\ecit\impl\UserServiceImpl.class
+com\ecit\AppConfig.class
+com\ecit\impl\DemoServiceMock.class
+com\ecit\Application.class

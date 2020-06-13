@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="test:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/test_jar</output-path>
+    <root id="root">
+      <element id="archive" name="test.jar">
+        <element id="module-output" name="test" />
+      </element>
+      <element id="library" level="module" name="Maven: com.sun:tools:unknown" module-name="test" />
+    </root>
+  </artifact>
+</component>

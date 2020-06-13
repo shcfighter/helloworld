@@ -1,0 +1,4 @@
+com\ecit\DubboProviderApplication.class
+com\ecit\service\impl\DefaultDemoService.class
+com\ecit\service\impl\DemoServiceMock.class
+com\ecit\service\impl\UserServiceImpl.class

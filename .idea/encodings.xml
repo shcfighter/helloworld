@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/dubbo-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/dubbo-only" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/dubbo-only/dubbo-consumer-only" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/dubbo-only/dubbo-provider-only" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/dubbo-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/dubbo-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javaagent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mongodb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-at" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-at/account-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-at/business-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-at/order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-at/seata-common-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-at/seata-dubbo-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-at/storage-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-tcc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-tcc/dubbo-business-tcc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-tcc/dubbo-from-tcc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-tcc/dubbo-service-tcc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-tcc/dubbo-to-tcc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sort" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vertx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xmlspring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper" charset="UTF-8" />
+  </component>
+</project>

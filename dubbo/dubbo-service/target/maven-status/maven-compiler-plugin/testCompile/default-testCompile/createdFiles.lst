@@ -1,0 +1,4 @@
+com\ecit\dubbo\spi\interfaces\ICar.class
+com\ecit\dubbo\spi\SpiMain.class
+com\ecit\dubbo\spi\impl\BlurCar.class
+com\ecit\dubbo\spi\impl\RedCar.class
