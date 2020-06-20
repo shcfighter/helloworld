@@ -19,6 +19,6 @@ public class EmployeeServiceImpl implements IEmployeeService {
     @Override
     public void save(Employee employee) {
         employeeMapper.insert(employee);
-        int i = 1/0;
+        //int i = 1/0;
     }
 }

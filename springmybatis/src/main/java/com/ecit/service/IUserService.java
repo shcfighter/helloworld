@@ -2,9 +2,19 @@ package com.ecit.service;
 
 import com.ecit.domain.User;
 
+import java.util.List;
+
 public interface IUserService {
 
-    void save(User user);
+    User save(User user);
 
-    void save2(User user);
+    User save2(User user);
+
+    List<User> queryUser(User user);
+
+    int delete(int id);
+
+    User get(int id);
+
+    User get(User user);
 }

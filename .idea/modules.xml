@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/sort/sort.iml" filepath="$PROJECT_DIR$/sort/sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-activiti/springboot-activiti.iml" filepath="$PROJECT_DIR$/springboot-activiti/springboot-activiti.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmybatis/springmybatis.iml" filepath="$PROJECT_DIR$/springmybatis/springmybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata/seata-at/storage-service/storage-service.iml" filepath="$PROJECT_DIR$/seata/seata-at/storage-service/storage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />

@@ -36,6 +36,7 @@
         <module>xmlspring</module>
         <module>springmybatis</module>
         <module>seata</module>
+        <module>springboot-activiti</module>
     </modules>
 
 

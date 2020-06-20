@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecit.mapper.AccountMapper">
+  <resultMap id="BaseResultMap" type="com.ecit.domain.Account">
+    <id column="account_no" jdbcType="VARCHAR" property="accountNo" />
+    <result column="amount" jdbcType="DOUBLE" property="amount" />
+    <result column="freezed_amount" jdbcType="DOUBLE" property="freezedAmount" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    account_no, amount, freezed_amount
+  </sql>
+
+  <select id="getAccountForUpdate" parameterType="java.lang.String" resultMap="BaseResultMap">
+      select * from account where account_no=#{accountNo,jdbcType=VARCHAR} for update
+  </select>
+
+  <update id="updateFreezedAmount" parameterType="com.ecit.domain.Account">
+		update account set freezed_amount=#{freezedAmount} where account_no=#{accountNo}
+	</update>
+
+  <update id="updateAmount" parameterType="com.ecit.domain.Account">
+		update account set amount=#{amount}, freezed_amount=#{freezedAmount} where account_no=#{accountNo}
+	</update>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from account
+    where account_no = #{accountNo,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from account
+    where account_no = #{accountNo,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.ecit.domain.Account">
+    insert into account (account_no, amount, freezed_amount
+      )
+    values (#{accountNo,jdbcType=VARCHAR}, #{amount,jdbcType=DOUBLE}, #{freezedAmount,jdbcType=DOUBLE}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.ecit.domain.Account">
+    insert into account
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="accountNo != null">
+        account_no,
+      </if>
+      <if test="amount != null">
+        amount,
+      </if>
+      <if test="freezedAmount != null">
+        freezed_amount,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="accountNo != null">
+        #{accountNo,jdbcType=VARCHAR},
+      </if>
+      <if test="amount != null">
+        #{amount,jdbcType=DOUBLE},
+      </if>
+      <if test="freezedAmount != null">
+        #{freezedAmount,jdbcType=DOUBLE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ecit.domain.Account">
+    update account
+    <set>
+      <if test="amount != null">
+        amount = #{amount,jdbcType=DOUBLE},
+      </if>
+      <if test="freezedAmount != null">
+        freezed_amount = #{freezedAmount,jdbcType=DOUBLE},
+      </if>
+    </set>
+    where account_no = #{accountNo,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ecit.domain.Account">
+    update account
+    set amount = #{amount,jdbcType=DOUBLE},
+      freezed_amount = #{freezedAmount,jdbcType=DOUBLE}
+    where account_no = #{accountNo,jdbcType=VARCHAR}
+  </update>
+</mapper>
