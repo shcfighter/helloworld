@@ -7,7 +7,7 @@ public class TestService2 implements JavaDelegate {
     @Override
     public void execute(DelegateExecution delegateExecution) {
         System.out.println("==================================================================================");
-        System.out.println("test2 处理");
+        System.out.println(Thread.currentThread().getName() + " test2 处理");
         System.out.println("==================================================================================");
     }
 }

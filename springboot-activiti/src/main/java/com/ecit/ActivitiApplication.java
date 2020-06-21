@@ -12,13 +12,13 @@ import javax.annotation.Resource;
  * Hello world!
  */
 @SpringBootApplication(exclude = SecurityAutoConfiguration.class,scanBasePackages="com.ecit")
-public class ZApplication implements CommandLineRunner {
+public class ActivitiApplication implements CommandLineRunner {
 
     @Resource
     private TestTask testTask;
 
     public static void main(String[] args) {
-        SpringApplication.run(ZApplication.class, args);
+        SpringApplication.run(ActivitiApplication.class, args);
         System.out.println("Hello World!");
 
     }
