@@ -6,41 +6,46 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zookeeper" />
-        <module name="dubbo-business-tcc" />
-        <module name="spring" />
+        <module name="account-service" />
+        <module name="agent-core" />
+        <module name="agent-vm" />
         <module name="business-service" />
+        <module name="dubbo-business-tcc" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-consumer-only" />
+        <module name="dubbo-from-tcc" />
+        <module name="dubbo-provider" />
+        <module name="dubbo-provider-only" />
+        <module name="dubbo-service" />
+        <module name="dubbo-service-tcc" />
+        <module name="dubbo-to-tcc" />
+        <module name="hbase" />
+        <module name="javaagent" />
+        <module name="kafka" />
+        <module name="mongodb" />
+        <module name="netty" />
         <module name="order-service" />
         <module name="oss" />
-        <module name="storage-service" />
         <module name="seata-at" />
-        <module name="account-service" />
-        <module name="springmybatis" />
-        <module name="xmlspring" />
-        <module name="netty" />
-        <module name="test" />
-        <module name="springboot" />
-        <module name="hbase" />
-        <module name="dubbo-provider" />
         <module name="seata-common-service" />
-        <module name="javaagent" />
-        <module name="springboot-activiti" />
-        <module name="dubbo-service" />
-        <module name="dubbo-consumer" />
-        <module name="vertx" />
-        <module name="mongodb" />
-        <module name="sort" />
-        <module name="dubbo-from-tcc" />
-        <module name="dubbo-provider-only" />
-        <module name="dubbo-to-tcc" />
-        <module name="dubbo-consumer-only" />
-        <module name="dubbo-service-tcc" />
-        <module name="kafka" />
         <module name="seata-dubbo-service" />
+        <module name="sort" />
+        <module name="spring" />
+        <module name="springboot" />
+        <module name="springboot-activiti" />
+        <module name="springmybatis" />
+        <module name="storage-service" />
+        <module name="test" />
+        <module name="vertx" />
+        <module name="xmlspring" />
+        <module name="zookeeper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="account-service" target="1.8" />
+      <module name="agent" target="1.5" />
+      <module name="agent-core" target="1.8" />
+      <module name="agent-vm" target="1.8" />
       <module name="business-service" target="1.8" />
       <module name="dubbo" target="1.8" />
       <module name="dubbo-business-tcc" target="1.8" />

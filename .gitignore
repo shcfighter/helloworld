@@ -91,3 +91,25 @@ nbdist/
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+.idea/**
+
+agent/.DS_Store
+agent/._.DS_Store
+agent/agent-core/dependency-reduced-pom.xml
+agent/agent-core/pom.xml
+agent/agent-core/src/
+agent/agent-core/target/META-INF/
+agent/agent-core/target/generated-sources/
+agent/agent-core/target/maven-archiver/
+agent/agent-core/target/maven-status/
+agent/agent-vm/dependency-reduced-pom.xml
+agent/agent-vm/pom.xml
+agent/agent-vm/src/
+agent/agent-vm/target/classes/META-INF/
+agent/agent-vm/target/generated-sources/
+agent/agent-vm/target/maven-archiver/
+agent/agent-vm/target/maven-status/
+agent/agent-vm/target/test-classes/
+agent/dependency-reduced-pom.xml
+agent/pom.xml
+agent/target/

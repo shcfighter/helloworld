@@ -48,6 +48,7 @@
       <set>
         <option value="$PROJECT_DIR$/dubbo/dubbo-only/dubbo-provider-only/pom.xml" />
         <option value="$PROJECT_DIR$/helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </set>
     </option>
   </component>

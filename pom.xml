@@ -21,6 +21,7 @@
 
     <modules>
         <module>dubbo</module>
+        <module>agent</module>
         <module>mongodb</module>
         <module>netty</module>
         <module>oss</module>
